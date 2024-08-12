@@ -1,0 +1,55 @@
+/* General Body Styling */
+body {
+    background-color: #e3f2fd; /* Light blue background */
+}
+
+/* Container Styling */
+.container {
+    margin-top: 50px;
+    max-width: 800px; /* Optional: Limit container width for better readability */
+}
+
+/* Primary Button Styling */
+.btn-primary {
+    background-color: #0288d1;
+    border-color: #0288d1;
+    color: #ffffff; /* Ensure button text is white */
+}
+
+/* Primary Button Hover Styling */
+.btn-primary:hover {
+    background-color: #0277bd;
+    border-color: #0277bd;
+}
+
+/* Secondary Button Styling */
+.btn-secondary {
+    background-color: #b0bec5;
+    border-color: #b0bec5;
+    color: #000000; /* Ensure button text is black for contrast */
+}
+
+.btn-secondary:hover {
+    background-color: #9e9e9e;
+    border-color: #9e9e9e;
+}
+
+/* Form Checkboxes and Labels */
+.form-check-input:checked {
+    background-color: #0288d1; /* Match theme color */
+    border-color: #0288d1; /* Match theme color */
+}
+
+.form-check-label {
+    margin-left: 0.5rem; /* Ensure spacing between checkbox and label */
+}
+
+/* Styling for Extract Data Page */
+.extract-form-group {
+    margin-bottom: 20px;
+}
+
+/* Styling for Tool Request Page */
+.tool-request {
+    margin-top: 20px;
+}
